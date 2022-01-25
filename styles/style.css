@@ -49,6 +49,7 @@ h1{
     border: 3px solid #ff3300;
     margin: 0 auto;
     overflow: scroll;
+    overflow-x: hidden;
 }
 .mini-mini{
     width: 500px;
