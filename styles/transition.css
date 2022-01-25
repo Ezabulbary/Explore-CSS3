@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+
+.half-width {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    height: 400px;
+    width: 400px;
+    border: 2px solid royalblue;
+    text-align: center;
+    background-color: yellow;
+    margin: 10px;
+    padding: 50px 10px;
+    transition:height 5s, width 5s, transform 5s, background-color 5s;
+}
+
+.box:hover {
+    height: 420px;
+    width: 420px;
+    background-color: white;
+    transform: rotate(360deg);
+}
+
+h3 {
+    font-size: 90px;
+}
